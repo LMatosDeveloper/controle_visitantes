@@ -1,0 +1,46 @@
+<header>
+        <h1>Controle de Visitantes</h1>
+</header>
+
+    <main>
+        <form action="/add" class="content" method="post">
+            <div class="item_form">
+                <label for="nome_visit">Nome:</label><br>
+                <input type="text" name="nome_visit" id="nome_visit" placeholder="Digite seu nome">
+            </div>
+
+            <div class="item_form">
+                <label for="cpf_visit">CPF:</label><br>
+                <input type="number" name="cpf_visit" id="cpf_visit" placeholder="Digite seu CPF" maxlength="11">
+            </div>
+
+            <div class="item_form">
+                <label for="hora_entrada">Entrada:</label><br>
+                <input type="time" name="hora_entrada" id="hora_entrada">
+            </div>
+
+            <div class="item_form">
+                <label for="hora_entrada">Saída:</label><br>
+                <input type="time" name="hora_saida" id="hora_saida">
+            </div>
+
+            <div class="item_form">
+                <label for="motivo">Motivo:</label><br>
+                <select name="motivo" id="motivo">
+                    <option value="abastecimento">Abastecimento</option>
+                    <option value="manutencao">Manutenção</option>
+                    <option value="visitante">Visitante</option>
+                </select>
+            </div>
+
+            <div id="item_form">
+                <label for="empresa">Empresa:</label><br>
+                <input type="text" name="empresa" id="empresa">
+            </div>
+
+            <div id="btn">
+                <label for="enviar"></label>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </main>

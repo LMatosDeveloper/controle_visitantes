@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+  background-image: url('/imagens/assai-50-anos-novo-logo-2024-banner-01.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#162D73;
+    border-radius: 6px;
+    height: 8vh;
+    width: 50vw;
+    margin: auto;
+    margin-top: 10vh;
+
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/* Estilos gerais para a tabela */
+table {
+  width: 100%; /* Faz a tabela ocupar toda a largura disponível */
+  border-collapse: collapse; /* Remove os espaços entre as bordas das células */
+  margin: 20px 0; /* Adiciona uma margem acima e abaixo da tabela */
+
+  overflow-y: auto;  /* Barra de rolagem vertical se necessário */
+  overflow-x: auto;  /* Barra de rolagem horizontal se necessário */
+}
+
+/* Estilos para o cabeçalho da tabela */
+th {
+  background-color: #162D73; /* Cor de fundo azul para o cabeçalho */
+  color: white; /* Cor do texto no cabeçalho */
+  padding: 12px 15px; /* Espaçamento interno para os cabeçalhos */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estilos para as células da tabela */
+td {
+  border: 1px solid #ddd; /* Borda fina e cinza para as células */
+  padding: 8px 15px; /* Espaçamento interno das células */
+  text-align: left; /* Alinha o texto à esquerda */
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para a linha da tabela ao passar o mouse */
+tr:hover {
+  background-color: #f2f2f2; /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* Estilo para a tabela no caso de estar vazia */
+table.empty {
+  text-align: center;
+  color: gray;
+}
+
+table.empty td {
+  border: none;
+  padding: 20px;
+}
+
+/* Estilo para a tabela com bordas arredondadas */
+table {
+  overflow: hidden; /* Evita que o conteúdo ultrapasse as bordas */
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin: auto;
+    background-color: rgba(173, 216, 230, 0.849);
+    border-radius: 7px;
+    width: 50vw;
+    height: 70vh;
+
+    overflow-y: auto;  /* Barra de rolagem vertical se necessário */
+    overflow-x: auto;  /* Barra de rolagem horizontal se necessário */
+}
+
+input{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    border-style: none;
+    height: 47px;
+    width: 300px;
+  }
+
+  input[type = 'time']{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    border-style: none;
+    height: 47px;
+    width: 100px;
+  }
+
+  #motivo {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    border-style: none;
+    height: 47px;
+    width: 250px;
+  }
+
+  input[type = 'submit']{
+    font-size: 16px;
+    background-color: #162D73;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    border-style: none;
+    height: 47px;
+    width: 250px;
+  }
+
+  input:hover[type = 'submit']{
+    background-color: brown;
+    cursor: pointer;
+  }
+
+
+

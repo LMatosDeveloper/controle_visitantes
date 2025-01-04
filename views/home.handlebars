@@ -1,0 +1,36 @@
+<header>
+        <h1>Controle de Visitantes</h1>
+</header>
+
+    <main>
+        <div  class = "content">
+            <table>
+            <thead>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Entrada</th>
+                <th>Saida</th>
+                <th>Motivo</th>
+                <th>Empresa</th>
+                <th>Data</th>
+              
+                </tr>
+            </thead>
+            <tbody>
+                {{#each visitantes}}
+                <tr>
+                    <td>{{nome}}</td>
+                    <td>{{cpf_visitante}}</td>
+                    <td>{{hora_entrada}}</td>
+                    <td>{{hora_saida}}</td>
+                    <td>{{motivo}}</td>
+                    <td>{{empresa}}</td>
+                    <td>{{data}}</td>
+                    
+                </tr>
+                {{/each}}
+            </tbody>
+  </table>
+        </div>
+       
+    </main>
