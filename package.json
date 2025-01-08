@@ -5,9 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "LmatosDev",
+  "license": "MIT",
+  "description": "Controle de acesso de visitantes",
   "dependencies": {
     "express": "^4.21.2"
   }
