@@ -12,7 +12,8 @@
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
     "mysql2": "^3.12.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "sequelize": "^6.37.5"
   },
   "devDependencies": {
     "express-handlebars": "^8.0.1",
